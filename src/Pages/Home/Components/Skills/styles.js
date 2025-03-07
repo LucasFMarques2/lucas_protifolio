@@ -20,6 +20,11 @@ export const SkillsContainer = styled.div`
         margin-top: 3rem;
         margin-bottom: 5rem;
     }
+
+    .moeda{
+     margin-bottom: -10rem;
+     margin-top: 5rem;
+    }
 `
 
 export const SkillTextContainer = styled.div`
@@ -47,6 +52,8 @@ export const SkillsImgContainer = styled.div`
     }
 
     margin-top: 10rem;
+
+   
 `
 
 export const GameArea = styled.div`

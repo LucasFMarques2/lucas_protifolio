@@ -10,6 +10,7 @@ import reactLogo from './assets/reactLogo.svg'
 import sqlLogo from './assets/sqlLogo.svg'
 import gitLogo from './assets/gitLogo.svg'
 import figmaLogo from './assets/figmaLogo.svg'
+import moeda from './assets/moeda.svg'
 
 export function Skills(){
     return(
@@ -18,6 +19,7 @@ export function Skills(){
             <SkillTextContainer>
                 <span>Ao longo dos anos eu objtive conhecimento teórico e pratico nas seguintes tecnologias: </span>
             </SkillTextContainer>
+            <img src={moeda} className="moeda" />
             <SkillsImgContainer>
                 <img src={htmlLogo} alt="" />
                 <img src={cssLogo} alt="" />
